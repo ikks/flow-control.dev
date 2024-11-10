@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head id="head">
     <meta charset="UTF-8" >
     <meta name="generator" content="pandoc" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" >
@@ -8,6 +8,7 @@
     <link rel="icon" type="image/png" href="$site.asset('img/flow-control.png').link()">
     <link rel="stylesheet" type="text/css" href="$site.asset('css/reset.css').link()">
     <link rel="stylesheet" type="text/css" href="$site.asset('css/index.css').link()">
+    <super>
     <title :text="$site.title"></title>
   </head>
   <body>
@@ -30,6 +31,7 @@
     </nav>
     <h1 :text="$page.title"></h1>
     <div :html="$page.content()"></div>
-  <script src="$site.asset('js/index.js').link()"></script>
+    <div id="additional-js">    <super>        <script src="$site.asset('js/index.js').link()"></script>
+    </div>
   </body>
 </html>

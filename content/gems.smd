@@ -24,10 +24,22 @@ A Rule
 2. Chicken
    1. Raptor
    2. Mammals
+3. Bacterias
+
+| Action       | Flow           |  Vim   |
+| ------------- | ------------- |--------|
+| Move Up | Key Up |  k |
+| Move Down | Key Down | j |
 
 ### An Image
 
 [This is the caption]($image.siteAsset('img/flow-control.png'))
+
+
+### Asciinema
+```=html
+<div id="demo"></div>
+```
 
 ### Some ASCII
 ```

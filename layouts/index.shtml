@@ -1,1 +1,4 @@
 <extend template="base.shtml">
+<head id="head"></head>
+
+<div id="additional-js"></div>

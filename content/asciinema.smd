@@ -1,0 +1,11 @@
+---
+.title = "Asciinema test",
+.date = @date("2020-07-06T00:00:00"),
+.author = "Igor Támara",
+.layout = "bare.shtml",
+.draft = false,
+--- 
+
+```=html
+<div id="demo"></div>
+```

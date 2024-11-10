@@ -1,3 +1,14 @@
 <extend template="base.shtml">
+<head id="head">
+    <link rel="stylesheet" type="text/css" href="$site.asset('css/asciinema-player.css').link()">
+</head>
 
-
+<div id="additional-js">
+        <script src="$site.asset('js/asciinema-player.min.js').link()"></script>
+        <script>
+          AsciinemaPlayer.create("../cast/demo1.cast", document.getElementById('demo'), {
+            cols: 120,
+            rows: 35,
+          });
+        </script>
+</div>
